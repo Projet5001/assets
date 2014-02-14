@@ -4,7 +4,7 @@
  <tileset firstgid="1" source="../assets/tilesets/Woodland_ground.tsx"/>
  <tileset firstgid="257" source="../assets/tilesets/Woodland_village.tsx"/>
  <objectgroup name="objet">
-  <object name="player" x="129" y="134" width="64" height="52">
+   <object name="player" x="129" y="134" width="64" height="52">
    <properties>
     <property name="player" value="yes"/>
    </properties>
