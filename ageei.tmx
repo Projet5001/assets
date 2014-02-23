@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="30" tileheight="30">
  <tileset firstgid="1" source="../assets/tilesets/fantasy-tileset.tsx"/>
  <tileset firstgid="209" source="../assets/tilesets/Woodland_ground.tsx"/>
  <tileset firstgid="465" source="../assets/tilesets/Woodland_village.tsx"/>
- <objectgroup name="pnjs" width="0" height="0">
+ <objectgroup name="pnjs">
   <object name="player" x="440" y="255" width="43" height="36">
    <properties>
     <property name="player" value="yes"/>
    </properties>
   </object>
+  <object name="monstre1" x="240" y="150" width="30" height="30">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="boundaries" width="100" height="100">
+ <objectgroup name="boundaries">
   <object name="top" x="0" y="-30" width="90000" height="30">
    <properties>
     <property name="boundary" value="top"/>
@@ -42,7 +48,7 @@
    eJzt2LEKgCAYhVHX5hbf/0mjLSICUfNC58A/BCbEl4ulAAB/s4fP35zfvDVM6/qed/XQYzU9suiRRY8semTRI4seWfTIokeW691EvT33ztN+erzr+d+dj/H0yPJlj9q4Xg/nYzU9suiRRY8semTRI4seWWbel4zYEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGC2A6+gJ3A=
   </data>
  </layer>
- <objectgroup name="walls" width="100" height="100">
+ <objectgroup name="walls">
   <object x="360" y="150" width="1200" height="30">
    <properties>
     <property name="wall" value=""/>
