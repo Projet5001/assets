@@ -1,113 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="30" tileheight="30">
- <tileset firstgid="1" source="../assets/tilesets/fantasy-tileset.tsx"/>
- <tileset firstgid="209" source="../assets/tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="465" source="../assets/tilesets/Woodland_village.tsx"/>
- <objectgroup name="pnjs">
-  <object name="player" x="440" y="255" width="43" height="36">
-   <properties>
-    <property name="player" value="yes"/>
-   </properties>
-  </object>
-  <object name="monstre1" x="240" y="150" width="30" height="30">
+<map version="1.0" orientation="orthogonal" width="54" height="30" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" source="tilesets/fantasy-tileset.tsx"/>
+ <tileset firstgid="209" source="tilesets/Woodland_ground.tsx"/>
+ <tileset firstgid="465" source="tilesets/Woodland_village.tsx"/>
+ <objectgroup name="pnjs" width="54" height="30">
+  <object name="monstre1" x="572" y="149" width="30" height="30">
    <properties>
     <property name="monstre" value=""/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="boundaries">
-  <object name="top" x="0" y="-30" width="90000" height="30">
+ <objectgroup name="boundaries" width="54" height="30">
+  <object name="porte_ageei" type="porte" gid="23" x="840" y="751">
    <properties>
-    <property name="boundary" value="top"/>
+    <property name="barree" value="False"/>
+    <property name="block" value="True"/>
+    <property name="destination" value="couloir_sh.tmx"/>
    </properties>
   </object>
-  <object name="left" x="-30" y="0" width="30" height="90000">
+  <object name="source_start" type="source" x="182" y="120" width="28" height="28">
    <properties>
-    <property name="boundary" value="left"/>
+    <property name="source" value="start"/>
    </properties>
   </object>
-  <object name="bottom" x="0" y="90000" width="90000" height="30">
+  <object name="source_couloir" type="source" x="844" y="692" width="24" height="23">
    <properties>
-    <property name="boundary" value="bottom"/>
-   </properties>
-  </object>
-  <object name="right" x="90000" y="0" width="30" height="90000">
-   <properties>
-    <property name="boundary" value="right"/>
+    <property name="source" value="couloir_sh.tmx"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="outdoor" width="100" height="100">
+ <layer name="outdoor" width="54" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwwEJAAAMBKHr3+4bDZZDwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/Ac7F5eI=
+   eJztwwENAAAMw6D6dzdHV3AHkLBqqqqqqqqqvg8lNyrg
   </data>
  </layer>
- <layer name="ground" width="100" height="100">
+ <layer name="ground" width="54" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt2LEKgCAYhVHX5hbf/0mjLSICUfNC58A/BCbEl4ulAAB/s4fP35zfvDVM6/qed/XQYzU9suiRRY8semTRI4seWfTIokeW691EvT33ztN+erzr+d+dj/H0yPJlj9q4Xg/nYzU9suiRRY8semTRI4seWWbel4zYEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGC2A6+gJ3A=
+   eJzt1jEKACEMBEDbq6/x/y+1uuawkSjEMAtbCBoY0tia3Jw3eSOuZ6Gr9yNvubi4uLi4uOq4vvbfOdrZvKz7ipTrLlcv6qq6Ly4uLq7srlP/qB0zRUROZQDSgCdw
   </data>
  </layer>
- <objectgroup name="walls">
-  <object x="360" y="150" width="1200" height="30">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="360" y="180" width="30" height="660">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="1530" y="180" width="30" height="660">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="390" y="810" width="54" height="30">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="480" y="810" width="594" height="29">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="390" y="480" width="54" height="30">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="480" y="480" width="563" height="28">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="720" y="180" width="30" height="300">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="1082" y="480" width="89" height="27">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="1110" y="810" width="420" height="30">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="1170" y="180" width="30" height="380">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
-  <object x="1172" y="595" width="26" height="214">
-   <properties>
-    <property name="wall" value=""/>
-   </properties>
-  </object>
- </objectgroup>
+ <layer name="walls" width="54" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOwCAMBEH+kP//NT1KhX0IolmJzsfqoPEYuJnn8FPplZzn4uLi4uLi4pp3lu4dqLIX7XzDCnqtzXdl09zS66//pdfafFc27dKrN5t26fWdTe1RHXcCQIoXtcsM6w==
+  </data>
+ </layer>
 </map>

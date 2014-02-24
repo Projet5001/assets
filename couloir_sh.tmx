@@ -29,14 +29,14 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="walls" width="50" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt0ckJACAQBEFzMP9cTcDjocK6VsG8BLGxFLinDjY7O7Hd+3sdr9ERi45YdMSSpaPnxY4s/5G9I+JWbwMAgB80vUYIKw==
-  </data>
- </layer>
  <layer name="ground" width="50" height="30">
   <data encoding="base64" compression="zlib">
    eJzt1rsJACAQBNHrweAi+2/TBvwEKqzrPNhIEAYTI4B7ymA5OTux3ft7HfWx0aE1OrRGh9ZcOtKkw+U93DsUt/p/AQAAAD9oebU/Ww==
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKACEMBdHcwdb7n1PSGy2i+NV5kEpWHATXDNinBDNaWzHZ/XsdJ9TEt0odGXRooUMLHTqi9/q2DvfCfbibOkb/+6hDcWZnAwAAAH7QAMBRCH8=
   </data>
  </layer>
 </map>
