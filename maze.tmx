@@ -17,17 +17,17 @@
   </data>
  </layer>
  <objectgroup name="owarps" width="32" height="32">
-  <object name="2,8" x="36" y="228" width="24" height="24">
+  <object name="1,7" x="36" y="228" width="24" height="24">
    <properties>
-    <property name="from" value="Maze 2,8"/>
-    <property name="to" value="Maze 32,9"/>
+    <property name="from" value="Maze 1,7"/>
+    <property name="to" value="Maze 31,8"/>
     <property name="warp" value=""/>
    </properties>
   </object>
-  <object name="32,9" x="996" y="260" width="26" height="24">
+  <object name="31,8" x="996" y="260" width="26" height="24">
    <properties>
-    <property name="from" value="Maze 32,9"/>
-    <property name="to" value="Maze 2,8"/>
+    <property name="from" value="Maze 31,8"/>
+    <property name="to" value="Maze 1,7"/>
     <property name="warp" value=""/>
    </properties>
   </object>
