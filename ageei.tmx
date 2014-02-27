@@ -3,32 +3,6 @@
  <tileset firstgid="1" source="tilesets/fantasy-tileset.tsx"/>
  <tileset firstgid="209" source="tilesets/Woodland_ground.tsx"/>
  <tileset firstgid="465" source="tilesets/Woodland_village.tsx"/>
- <objectgroup name="pnjs" width="54" height="30">
-  <object name="monstre1" x="572" y="149" width="30" height="30">
-   <properties>
-    <property name="monstre" value=""/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="boundaries" width="54" height="30">
-  <object name="porte_ageei" type="porte" gid="23" x="840" y="751">
-   <properties>
-    <property name="barree" value="False"/>
-    <property name="block" value="True"/>
-    <property name="destination" value="couloir_sh.tmx"/>
-   </properties>
-  </object>
-  <object name="source_start" type="source" x="182" y="120" width="28" height="28">
-   <properties>
-    <property name="source" value="start"/>
-   </properties>
-  </object>
-  <object name="source_couloir" type="source" x="844" y="692" width="24" height="23">
-   <properties>
-    <property name="source" value="couloir_sh.tmx"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer name="outdoor" width="54" height="30">
   <data encoding="base64" compression="zlib">
    eJztwwENAAAMw6D6dzdHV3AHkLBqqqqqqqqqvg8lNyrg
@@ -44,4 +18,30 @@
    eJzt1jEOwCAMBEH+kP//NT1KhX0IolmJzsfqoPEYuJnn8FPplZzn4uLi4uLi4pp3lu4dqLIX7XzDCnqtzXdl09zS66//pdfafFc27dKrN5t26fWdTe1RHXcCQIoXtcsM6w==
   </data>
  </layer>
+ <objectgroup name="pnjs" width="54" height="30">
+  <object name="monstre1" x="572" y="149" width="30" height="30">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="boundaries" width="54" height="30">
+  <object name="porte_ageei" type="porte" gid="23" x="840" y="751">
+   <properties>
+    <property name="barree" value="False"/>
+    <property name="block" value="True"/>
+    <property name="destination" value="couloir_sh.tmx"/>
+   </properties>
+  </object>
+  <object name="source_start" type="source" x="841" y="541" width="28" height="28">
+   <properties>
+    <property name="source" value="start"/>
+   </properties>
+  </object>
+  <object name="source_couloir" type="source" x="844" y="692" width="24" height="23">
+   <properties>
+    <property name="source" value="couloir_sh.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
