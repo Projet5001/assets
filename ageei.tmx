@@ -43,5 +43,20 @@
     <property name="source" value="couloir_sh.tmx"/>
    </properties>
   </object>
+  <object name="porte_etage" type="porte" gid="26" x="209" y="750">
+   <properties>
+    <property name="barree" value="True"/>
+    <property name="block" value="True"/>
+    <property name="clef" value="cle_1"/>
+    <property name="destination" value="test_etage_1.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objets" width="54" height="30">
+  <object name="cle_1" type="objet" gid="38" x="1067" y="139">
+   <properties>
+    <property name="type" value="clef"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
