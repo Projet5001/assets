@@ -53,10 +53,6 @@
   </object>
  </objectgroup>
  <objectgroup name="objets" width="54" height="30">
-  <object name="cle_1" type="objet" gid="38" x="1067" y="139">
-   <properties>
-    <property name="type" value="clef"/>
-   </properties>
-  </object>
+  <object name="cle_1" type="clef" gid="38" x="1067" y="139"/>
  </objectgroup>
 </map>
