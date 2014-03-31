@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="24" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" source="tilesets/uqam_Tileset.tsx"/>
+ <layer name="99_floor" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AQiSHik2MsKxfS2d6SF80izl2WA7GUdIHtHWvwOhL2wNDUU/csOxOJYxLGJYbOXEGYlUT2+sCTVLGxmEmMGIf+yEGEGORiXvbjsE8VjFjY5mDnoYUDIv6TYS4l/RwoAABkLDNA=
+  </data>
+ </layer>
+ <objectgroup name="boundaries" width="30" height="24">
+  <object name="source_ageei_1" type="source" x="427" y="1091" width="46" height="43">
+   <properties>
+    <property name="source" value="ageei2.tmx"/>
+    <property name="source_transition" value="source_ageei_1"/>
+   </properties>
+  </object>
+  <object name="source_ageei_2" type="source" x="936" y="1091" width="46" height="43">
+   <properties>
+    <property name="source" value="ageei2.tmx"/>
+    <property name="source_transition" value="source_ageei_2"/>
+   </properties>
+  </object>
+  <object name="porte_vers_ageei_1" type="porte" x="409" y="1022" width="82" height="62">
+   <properties>
+    <property name="basetool" value="True"/>
+    <property name="block" value="True"/>
+    <property name="dest_transition" value="source_couloir_1"/>
+    <property name="destination" value="ageei2.tmx"/>
+   </properties>
+  </object>
+  <object name="porte_vers_ageei_2" type="porte" x="917" y="1025" width="85" height="63">
+   <properties>
+    <property name="basetool" value="True"/>
+    <property name="block" value="True"/>
+    <property name="dest_transition" value="source_couloir_2"/>
+    <property name="destination" value="ageei2.tmx"/>
+   </properties>
+  </object>
+  <object name="mur_bas_droite" type="mur" x="1780" y="1045" width="29" height="377">
+   <properties>
+    <property name="block" value="True"/>
+   </properties>
+  </object>
+  <object name="mur_haut_droite" type="mur" x="308" y="192" width="28" height="896">
+   <properties>
+    <property name="block" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="walls" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4oAjESlCsRkd7DYHYCIrN6GzvQIBRe0ftHbV31N5Re0mzNwmIk4E4BcrGhvHJY5NTZcCs69DtLQLiYiAuAeJyJAwSr0CTL0KSK0KTq0CSM2XArOsGSziP2ksbkDhA9hYyYKZL5PRbjkUeGyYkX0QvD+EBAKGZI58=
+  </data>
+ </layer>
+ <layer name="00_mur_front" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9hQNkLy2B0Ki9A2avOhCnQ2l0NrE4nYA+L1p5aAgAADybCgA=
+  </data>
+ </layer>
+</map>
