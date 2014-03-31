@@ -50,7 +50,7 @@
     <property name="block" value="1"/>
    </properties>
   </object>
-  <object name="porte_ageei_1" type="porte" x="147" y="577" width="88" height="65">
+  <object name="porte_ageei_1" type="porte" x="147" y="576" width="88" height="65">
    <properties>
     <property name="barree" value="True"/>
     <property name="basetool" value="True"/>
@@ -60,7 +60,7 @@
     <property name="destination" value="couloir_sh2.tmx"/>
    </properties>
   </object>
-  <object name="porte_ageei_2" type="porte" x="789" y="577" width="86" height="64">
+  <object name="porte_ageei_2" type="porte" x="789" y="576" width="86" height="64">
    <properties>
     <property name="barree" value="True"/>
     <property name="basetool" value="True"/>
