@@ -98,17 +98,22 @@
    eJxjYKAcKAKxEhrOxCKGjDOgatSgZhgCsREarsQihowroGrMkMygFIyagQoSqWBGIRAXAXExEJcAsTkQm2LBRWjqYOKDCQAAF3QNhA==
   </data>
  </layer>
- <layer name="03_meubles" width="17" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBhcIBeI84A4H0lMH4gNgNgZiF2A2BVJDBuoBeI6IK5HErMHYgcgDgbiECAORRIbBaOAWAAAGokGSQ==
-  </data>
- </layer>
- <layer name="02_deco_01" width="17" height="12">
+ <layer name="03_deco_01" width="17" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYBhcQAwJ4wNseOT4qeecUUBHQEy8DzQAAP10AIQ=
   </data>
  </layer>
- <layer name="01_light" width="17" height="12">
+ <layer name="02_meubles" width="17" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcIBeI84A4H0lMH4gNgNgZiF2A2BVJDBuoBeI6IK5HErMHYgcgDgbiECAORRIbBaOAWAAAGokGSQ==
+  </data>
+ </layer>
+ <layer name="hint" width="17" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAsAAzAAAQ==
+  </data>
+ </layer>
+ <layer name="light" width="17" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYBgF6IAPiPlJ1MMDxLxIfDkglifRDBkgliVRDyF3kAOo4Y7hCgCdowD/
   </data>

@@ -52,15 +52,30 @@
     <property name="trigger" value="fractal-ferme"/>
    </properties>
   </object>
+  <object name="source_start" type="source" x="195" y="287" width="26" height="24">
+   <properties>
+    <property name="source" value="start"/>
+   </properties>
+  </object>
  </objectgroup>
+ <layer name="wall_extra" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAMAjAqv795BRxmS7AEAFi7dQCoPav/AHI=
+  </data>
+ </layer>
  <layer name="walls" width="30" height="24">
   <data encoding="base64" compression="zlib">
    eJxjYBg4oAjESlCsRkd7DYHYCIrN6GzvQIBRe0ftHbV31N5Re0mzNwmIk4E4BcrGhvHJY5NTZcCs69DtLQLiYiAuAeJyJAwSr0CTL0KSK0KTq0CSM2XArOsGSziP2ksbkDhA9hYyYKZL5PRbjkUeGyYkX0QvD+EBAKGZI58=
   </data>
  </layer>
+ <layer name="hint" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAACvAQtAAAE=
+  </data>
+ </layer>
  <layer name="00_mur_front" width="30" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9hQNkLy2B0Ki9A2avOhCnQ2l0NrE4nYA+L1p5aAgAADybCgA=
+   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9wxEIjdo7YPaqA3E6lEZnE4vTCejzopWHhgAAAJvNCY8=
   </data>
  </layer>
 </map>
