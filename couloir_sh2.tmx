@@ -58,6 +58,23 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="pnjs" width="30" height="24">
+  <object name="monstre1" type="monstre" x="184" y="376" width="29" height="30">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+  <object name="monstre2" type="monstre" x="191" y="1298" width="22" height="25">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+  <object name="monstre3" type="monstre" x="969" y="1248" width="27" height="28">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer name="wall_extra" width="30" height="24">
   <data encoding="base64" compression="zlib">
    eJztziEBAAAMAjAqv795BRxmS7AEAFi7dQCoPav/AHI=
