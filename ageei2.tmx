@@ -2,9 +2,16 @@
 <map version="1.0" orientation="orthogonal" width="17" height="12" tilewidth="64" tileheight="64">
  <tileset firstgid="1" source="tilesets/uqam_Tileset.tsx"/>
  <tileset firstgid="129" source="tilesets/fantasy-tileset.tsx"/>
+ <tileset firstgid="337" source="tilesets/dirt_tileset1.tsx"/>
+ <tileset firstgid="465" source="tilesets/meubles_Tileset.tsx"/>
  <layer name="99_floor" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBheQIQCPGoG7cwYLgAARqUHCQ==
+   eJxjYKAccAExN4VmSAGxNIVmiGDBLDjEkbEolMZlBil41AwEZgVibySzyAFRQByNZq4oA2XuogQDABv+C2o=
+  </data>
+ </layer>
+ <layer name="98_dirt" width="17" height="12" opacity="0.22">
+  <data encoding="base64" compression="zlib">
+   eJzlkFsKgCAURMf9b6IyF9BrAb321blQIKGk3w0cEHHmjlf6h1anZoAWnrvOSR56CO47Y8M7Qhdl1GrHO4EvyKBrsuOBd4a+IIM/i85ipvBouTNOvJybUJDB7uzv1t1mm7dKvvJ9Su/+b+V2Feurf25XsS4omCzV
   </data>
  </layer>
  <objectgroup name="objets" width="17" height="12">
@@ -16,7 +23,12 @@
  </objectgroup>
  <layer name="07_table_front" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkAHEmRSaUQHElVRwy0gCTkDsDMQuaNiVBDOCgDgYiEPQcChVXTo4AQDm3AXn
+   eJxjYBgYkAHEmSSod2XCFKsA4koquWekACcgdgZiFzTsSoIZQUAcDMQhaDiUqi4dnAAAmqEGLg==
+  </data>
+ </layer>
+ <layer name="light" width="17" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAc6AGxPhAbUGCGHRDbA7EDFdwzCkYBrQAAkCkBSw==
   </data>
  </layer>
  <layer name="06_wall_design" width="17" height="12">
@@ -30,17 +42,12 @@
     <property name="block" value="1"/>
    </properties>
   </object>
-  <object name="sofa_1" type="objet" x="454" y="181" width="118" height="75">
+  <object name="sofa_1" type="objet" x="459" y="188" width="171" height="89">
    <properties>
     <property name="block" value="1"/>
    </properties>
   </object>
-  <object name="table_1" type="objet" x="604" y="153" width="133" height="104">
-   <properties>
-    <property name="block" value="1"/>
-   </properties>
-  </object>
-  <object name="sofa_2" type="objet" x="775" y="179" width="115" height="78">
+  <object name="sofa_2" type="objet" x="714" y="184" width="171" height="97">
    <properties>
     <property name="block" value="1"/>
    </properties>
@@ -100,22 +107,17 @@
  </layer>
  <layer name="03_deco_01" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcQAwJ4wNseOT4qeecUUBHQEy8DzQAAP10AIQ=
+   eJxjYKAtUGRiYFACYmUgVmEirF4MCcOALlCfHhDrA7EB1Aw2PGbwk+/cUTCAAD3eByMAAH44Adg=
   </data>
  </layer>
  <layer name="02_meubles" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcIBeI84A4H0lMH4gNgNgZiF2A2BVJDBuoBeI6IK5HErMHYgcgDgbiECAORRIbBaOAWAAAGokGSQ==
+   eJxjYBhcIBeI84A4nwIzaoG4DojrkcTeMjIwvAPi94zY+cSAn0C1v4D4NyN2/igY/gAA8MYOQQ==
   </data>
  </layer>
  <layer name="hint" width="17" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUEAsAAzAAAQ==
-  </data>
- </layer>
- <layer name="light" width="17" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF6IAPiPlJ1MMDxLxIfDkglifRDBkgliVRDyF3kAOo4Y7hCgCdowD/
   </data>
  </layer>
  <layer name="00_wall_front" width="17" height="12">

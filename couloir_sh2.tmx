@@ -57,6 +57,12 @@
     <property name="source" value="start"/>
    </properties>
   </object>
+  <object name="source_ageei_3" type="source" x="1735" y="1243" width="46" height="43">
+   <properties>
+    <property name="source" value="ageei2.tmx"/>
+    <property name="source_transition" value="source_ageei_1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="pnjs" width="30" height="24">
   <object name="monstre1" type="monstre" x="184" y="376" width="29" height="30">
@@ -82,7 +88,7 @@
  </layer>
  <layer name="walls" width="30" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4oAjESlCsRkd7DYHYCIrN6GzvQIBRe0ftHbV31N5Re0mzNwmIk4E4BcrGhvHJY5NTZcCs69DtLQLiYiAuAeJyJAwSr0CTL0KSK0KTq0CSM2XArOsGSziP2ksbkDhA9hYyYKZL5PRbjkUeGyYkX0QvD+EBAKGZI58=
+   eJxjYBg4oAjESlCsRkd7DYHYCIrN6GzvQIBRe0ftHbV31N5Re0mzNwmIk4E4BcrGhvHJY5NTZcCs69DtLQLiYiAuAeJyJAwSr0CTL0KSK0KTq0CSM2XArOsGSzjTCjAPkL3CA2QvOkgcIHsLGTDTJXL6Lccijw0Tki+il4fwAADNSSO1
   </data>
  </layer>
  <layer name="hint" width="30" height="24">
@@ -92,7 +98,7 @@
  </layer>
  <layer name="00_mur_front" width="30" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9wxEIjdo7YPaqA3E6lEZnE4vTCejzopWHhgAAAJvNCY8=
+   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9wxEIjTB7mQfIXmEsYupAnA6l0dnE4nQC+rxo5aEhAACAbQmB
   </data>
  </layer>
 </map>
