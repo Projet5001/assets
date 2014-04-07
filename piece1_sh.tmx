@@ -10,6 +10,11 @@
    eJxjYBi5QIRCPNTNIzVM6GEeKYAY+0k1g57mDfb0MhgBAEgbCXU=
   </data>
  </layer>
+ <layer name="dirt" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzl0rcOwkAQRdH5dVJFDq5MDpVJJlQmh8qkT+IiUWwzrNgOMdJpdqQn7dOI/OckkEQKaWSMXRY55FFAESVLXhkVVFGDZ+x81NFAEy20LXkddNFDHwNjF2CIEcaYYGrJCzHDHAssjV2EFdbYYIudJW+PA4444fx+f3UX44IrbrjjYcnTxhe3/rQJRO/P5SYi0ftzuYlY9P5+9Sbkw5++nSfsoFzc
+  </data>
+ </layer>
  <layer name="walls" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYBgaQAqIpYG4GIhLgDgKiKOB2JRIbEZ/Jw96AAsbWJhSO4w0SFALi89SKC7DosYCiC2BuAJJHS6gCMRKQKyKBScDcQoQp5HgPkMgNmLAnrZg4YfNzbhAIAlqB8I8EChiQIQzOZgWAABjDBaS
@@ -38,21 +43,6 @@
  <layer name="light_top" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJztyDERwCAQBVEMQTAAiQFIDEDwr4J18K+iup15zYZwpoiEC9nwVQUVNx7DVzV0vPgMXzUw8WMZvud5ug04UAjR
-  </data>
- </layer>
- <layer name="deco_walls" width="20" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg6QAyJ7cfIwODPSFgPsepIBVE4zOSnvlU0Aw2MDAtKgHig3UEKYANiZkYEpgbgZ0RgfAA9LaHzsxhxpwtsgBS1owACAFjYBpY=
-  </data>
- </layer>
- <layer name="hint" width="20" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKhAQAEsAAB
-  </data>
- </layer>
- <layer name="walls_top" width="20" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgZwG2Im6cIxKpQnAzEKUCsRoF5pAJs5nkDcSoUp2GR1wBiTSDOQFJHK/cNdkBr/yYCcRIDIpxhOJ0BNfzR5dQZcMffYAQAb5cMuQ==
   </data>
  </layer>
  <objectgroup name="boundaries" width="20" height="15">
@@ -143,4 +133,19 @@
    </properties>
   </object>
  </objectgroup>
+ <layer name="deco_walls" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg6QAyJ7cfIwODPSFgPsepIBVE4zOSnvlU0Aw2MDAtKgHig3UEKYANiZkYEpgbgZ0RgfAA9LaHzsxhxpwtsgBS1owACAFjYBpY=
+  </data>
+ </layer>
+ <layer name="hint" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <layer name="walls_top" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgZwG2Im6cIxKpQnAzEKUCsRoF5pAJs5nkDcSoUp2GR1wBiTSDOQFJHK/cNdkBr/yYCcRIDIpxhOJ0BNfzR5dQZcMffYAQAb5cMuQ==
+  </data>
+ </layer>
 </map>

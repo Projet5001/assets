@@ -6,12 +6,7 @@
  <tileset firstgid="465" source="tilesets/meubles_Tileset.tsx"/>
  <layer name="99_floor" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAccAExN4VmSAGxNB75K4wMDFeB+BojbjUiZGJRKE2JGSKjZmBgViD2RjKLHBAFxNFo5ooyUOYuSjAAkFUN/A==
-  </data>
- </layer>
- <layer name="98_dirt" width="17" height="12" opacity="0.22">
-  <data encoding="base64" compression="zlib">
-   eJzlkFsKgCAURMf9b6IyF9BrAb321blQIKGk3w0cEHHmjlf6h1anZoAWnrvOSR56CO47Y8M7Qhdl1GrHO4EvyKBrsuOBd4a+IIM/i85ipvBouTNOvJybUJDB7uzv1t1mm7dKvvJ9Su/+b+V2Feurf25XsS4omCzV
+   eJxjYKAccAExN4VmSAGxNB75K4wMDFeB+BojbjUiWDALDnFkzAqlcZlBCh41AzVcvZHMIgdEAXE0mrmiVPAbuRgASJUN3A==
   </data>
  </layer>
  <objectgroup name="objets" width="17" height="12">
@@ -128,6 +123,16 @@
  <layer name="00_wall_front" width="17" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYKAccFHBDCkqmDEKqA8SgTgJiJOBOAXKxoeR1aUNgHtpDQA3+gZO
+  </data>
+ </layer>
+ <layer name="98_dirt" width="17" height="12" opacity="0.22">
+  <data encoding="base64" compression="zlib">
+   eJzNkdcJAzEQRFclOhXgVIBTAU4FOP2fT3cFOBXg1JefYA+EQFjnLw88EKxmdqUV+R81jEgTWtCGjqmf0cXTgz4MYKgZdyPZCY5Q3c2pWSig9HqNOI9hAlOYae2B9wy5lxHTHM8ClrCCtWY88V7AJmRs8GxhB3s4aMYL7xWKhAzeLMws9BQ8ctOMN17OWZmQwd+5t7vZXW/nrSX7wx5DhfOHYq/RfVb6Nn/sr3x9AOqDNPU=
+  </data>
+ </layer>
+ <layer name="Tile Layer 11" width="17" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzV0MsRgkAQRdHuEBEIAMQAFA0AlADwk693+WqKZmbLqzqrvqs2O8YqNzuhRoMWHXqcPW502g+44IobRo8bnfZ3PDBhxtPjRqf9CwtWvPHxuNFp/8UvuWuT+0v049zvtpZ2ud9tba/L/aWkK/ld1P0BKAYwmg==
   </data>
  </layer>
 </map>

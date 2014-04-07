@@ -19,11 +19,30 @@
    eJztlMcOwjAQRO090NuJ3k709v8fRBMgTvQ2kRzZPhBZFnIEZKR3S/JWw7KMRYnye5lzxhZgyd16D/AdwcmxN0aMxUGC3Hq9lOAsh+DtwtkLwftP2WCPt2An9nnvaK9v8NzBw/H/KIN9yoKc472qw9cATeFtB/ivXO/n6XVkOe8I743BBEzBLOA7adL7yYOCeF69tyuw/uDvViO9nxbJftR7ewYXQ6/JvEN63496b5MgZdi/7bx+iiTvbQVUDb228/rpkLy3fTAwfN923m/JC2ieKtA=
   </data>
  </layer>
- <layer name="steps" width="30" height="24">
-  <data encoding="base64" compression="zlib">
-   eJztzQENAAAIA6D3NYLlbaGbgwIkbKujt49eAIBPBp9YAOc=
-  </data>
- </layer>
+ <objectgroup name="pnjs" width="30" height="24">
+  <object name="monstre1" type="monstre" x="184" y="376" width="29" height="30">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+  <object name="monstre2" type="monstre" x="191" y="1298" width="22" height="25">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+  <object name="monstre3" type="monstre" x="969" y="1248" width="27" height="28">
+   <properties>
+    <property name="monstre" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objets" width="30" height="24">
+  <object name="cle_2" type="clef" gid="166" x="142" y="245">
+   <properties>
+    <property name="basetool" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="boundaries" width="30" height="24">
   <object name="source_ageei_1" type="source" x="406" y="1112" width="78" height="23">
    <properties>
@@ -105,23 +124,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="pnjs" width="30" height="24">
-  <object name="monstre1" type="monstre" x="184" y="376" width="29" height="30">
-   <properties>
-    <property name="monstre" value=""/>
-   </properties>
-  </object>
-  <object name="monstre2" type="monstre" x="191" y="1298" width="22" height="25">
-   <properties>
-    <property name="monstre" value=""/>
-   </properties>
-  </object>
-  <object name="monstre3" type="monstre" x="969" y="1248" width="27" height="28">
-   <properties>
-    <property name="monstre" value=""/>
-   </properties>
-  </object>
- </objectgroup>
+ <layer name="steps" width="30" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzQENAAAIA6D3NYLlbaGbgwIkbKujt49eAIBPBp9YAOc=
+  </data>
+ </layer>
  <layer name="wall_extra" width="30" height="24">
   <data encoding="base64" compression="zlib">
    eJztziEBAAAMAjAqv795BRxmS7AEAFi7dQCoPav/AHI=
@@ -137,13 +144,6 @@
    eJxjYBiZIIqRgWEX40C7YhSMglEwCkbBSAI5JNQ7hOookDyoLpsHxPMZMeWQQcUA1HergHa2jNazo2CYAgAITQb4
   </data>
  </layer>
- <objectgroup name="objets" width="30" height="24">
-  <object name="cle_2" type="clef" gid="166" x="142" y="245">
-   <properties>
-    <property name="basetool" value="True"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer name="hint" width="30" height="24">
   <data encoding="base64" compression="zlib">
    eJztwYEAAAAAw6D5U1/hAFUBAACvAQtAAAE=
