@@ -6,7 +6,7 @@
  <tileset firstgid="465" source="tilesets/meubles_Tileset.tsx"/>
  <layer name="99_floor" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAccAExN4VmSAGxNIVmiGDBLDjEkbEolMZlBil41AwEZgVibySzyAFRQByNZq4oA2XuogQDABv+C2o=
+   eJxjYKAccAExN4VmSAGxNB75K4wMDFeB+BojbjUiZGJRKE2JGSKjZmBgViD2RjKLHBAFxNFo5ooyUOYuSjAAkFUN/A==
   </data>
  </layer>
  <layer name="98_dirt" width="17" height="12" opacity="0.22">
@@ -42,7 +42,7 @@
     <property name="block" value="1"/>
    </properties>
   </object>
-  <object name="sofa_1" type="objet" x="459" y="188" width="171" height="89">
+  <object name="sofa_1" type="objet" x="459" y="191" width="171" height="89">
    <properties>
     <property name="block" value="1"/>
    </properties>
@@ -57,7 +57,7 @@
     <property name="block" value="1"/>
    </properties>
   </object>
-  <object name="porte_ageei_1" type="porte" x="147" y="576" width="88" height="65">
+  <object name="porte_ageei_1" type="porte" x="147" y="570" width="88" height="65">
    <properties>
     <property name="barree" value="True"/>
     <property name="basetool" value="True"/>
@@ -77,7 +77,7 @@
     <property name="destination" value="couloir_sh2.tmx"/>
    </properties>
   </object>
-  <object name="source_start" type="source" x="180" y="310" width="27" height="25">
+  <object name="source_start" type="source" x="359" y="302" width="27" height="25">
    <properties>
     <property name="source" value="start"/>
    </properties>
@@ -87,16 +87,21 @@
     <property name="block" value="True"/>
    </properties>
   </object>
-  <object name="source_couloir_1" type="source" x="163" y="491" width="57" height="54">
+  <object name="source_couloir_1" type="source" x="165" y="473" width="57" height="54">
    <properties>
     <property name="source" value="couloir_sh2.tmx"/>
     <property name="source_transition" value="source_couloir_1"/>
    </properties>
   </object>
-  <object name="source_couloir_2" type="source" x="804" y="486" width="57" height="58">
+  <object name="source_couloir_2" type="source" x="805" y="472" width="57" height="58">
    <properties>
     <property name="source" value="couloir_sh2.tmx"/>
     <property name="source_transition" value="source_couloir_2"/>
+   </properties>
+  </object>
+  <object name="source_start_ageei" type="source" x="633" y="329" width="57" height="43">
+   <properties>
+    <property name="source_transition" value="source_start_ageei"/>
    </properties>
   </object>
  </objectgroup>
@@ -122,7 +127,7 @@
  </layer>
  <layer name="00_wall_front" width="17" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowA3SATiJCBOBuIUKBsfRlaXNgDupTUAANWjBio=
+   eJxjYKAccFHBDCkqmDEKqA8SgTgJiJOBOAXKxoeR1aUNgHtpDQA3+gZO
   </data>
  </layer>
 </map>
