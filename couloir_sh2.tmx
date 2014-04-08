@@ -136,7 +136,7 @@
  </layer>
  <layer name="walls" width="30" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4oAjESlCsRkd7DYHYCIrN6GgvMx3tQgbCA2Sv4ai9o/aO2jtq7xC1NwmIk4E4BcrGhpHl04mQU2XArOvQ7S0C4mIgLgHiciQMEq9Aky9CkitCk6tAkjNlwKzrBks4j9pLG5A4QPYWMmCmS+T0W45FHhsmJF9ELw/hAQDriCNd
+   eJxjYBg4oAjESlCsRkd7DYHYCIrN6GgvMx3tQgbCA2Sv4ai9o/aO2jtq7xC1NwmIk4E4BcpOh+IkJIwuT0hOlQGzrkO3twiIi4G4BIjLkTBIvAJNvghJrghNrgJJzpQBs64bLOE8ai9tQOIA2VvIgJkukdNvORZ5bJiQfBG9PIQHAAAUSyNn
   </data>
  </layer>
  <layer name="deco_walls" width="30" height="24">
@@ -156,7 +156,7 @@
  </layer>
  <layer name="00_mur_front" width="30" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmYhFLh2J6g3IoHqpAaITZyzxA9gpjEVNngKRZdTxsZDFsOJ2AGi8c7sGVZssJyBNjxmABAC7oDZk=
+   eJxjYBgFAwECR+0dtXfU3lF7R+0dlPYmDpC9wxEIjTB7mQfIXmEsYupAnA6lcbGRxbDhdAJqvHC4p5yAOC55YswYLAAAjtcL3Q==
   </data>
  </layer>
 </map>

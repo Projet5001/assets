@@ -145,7 +145,7 @@
  </layer>
  <layer name="walls_top" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZwG2Im6cIxKpQnAzEKUCsRoF5pAJs5nkDcSoUp2GR1wBiTSDOQFJHK/cNdkBr/yYCcRIDIpxhOJ0BNfzR5dQZcMffYAQAb5cMuQ==
+   eJxjYBgZwG2Im6cIxEpAnA7EyUCcAsRqFJhnCMRGQFwOxMVAXALEZiSa5w3EqVCchkVeA4g1gTgDSR2x7htugNb+TQTiJAZEOMMwKL1kYBGHyakz4I6/wQgAbxEO7w==
   </data>
  </layer>
 </map>
